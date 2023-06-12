@@ -11,7 +11,9 @@ public class ArrayListDemo {
 		list.add(13);
 		list.add(14);
 		
-		System.out.println(list);
+		for (Integer integer : list) {
+			System.out.println(integer);
+		}
 
 	}
 
