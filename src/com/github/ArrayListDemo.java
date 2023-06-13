@@ -11,9 +11,10 @@ public class ArrayListDemo {
 		list.add(13);
 		list.add(14);
 		
-		for (Integer integer : list) {
-			System.out.println(integer);
-		}
+		// code changes provide better printing option rather than previous method
+		
+		list.stream().forEach(x->System.out.println(x));
+		
 
 	}
 
